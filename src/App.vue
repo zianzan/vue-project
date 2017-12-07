@@ -1,6 +1,6 @@
 <template>
   <div>
-      <mt-header fixed title="SH14期 Vue项目">
+      <mt-header fixed title="Vue项目">
           <mt-button icon="back" slot="left" @click="$router.go(-1)" v-if="$route.path!='/home'">返回</mt-button>
       </mt-header>
 
